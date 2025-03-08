@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <!-- Include the provided JavaScript file -->
+  <script src="popup.js"></script>
+</head>
+<body>
+  <h1>Contact Form</h1>
+  <form id="contactForm">
+    <!-- First Name -->
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="firstname" required>
+    <br><br>
+
+    <!-- Last Name -->
+    <label for="name">Last Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br><br>
+
+    <!-- Age -->
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required>
+    <br><br>
+
+    <!-- Phone -->
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required>
+    <br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+
+    <!-- Student at 42? -->
+    <label for="student">Student at 42?</label>
+    <input type="checkbox" id="student" name="student">
+    <br><br>
+
+    <!-- Gender -->
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="Male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="Female" required>
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="Other" required>
+    <label for="other">Other</label>
+    <br><br>
+
+    <!-- Submit Button -->
+    <button type="button" onclick="displayFormContents()">Submit</button>
+  </form>
+</body>
+</html>

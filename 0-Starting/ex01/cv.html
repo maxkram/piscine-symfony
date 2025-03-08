@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Résumé</title>
+  <!-- Internal CSS for the first requirement -->
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse; /* Merge table borders */
+    }
+    th, td {
+      border: 1px solid black; /* Solid borders for table cells */
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2; /* Light gray background for headers */
+    }
+    /* Style for the bottom-right cell of each table */
+    tr:last-child td:last-child {
+      border-color: #424242; /* Dark gray border for the bottom-right cell */
+    }
+  </style>
+</head>
+<body>
+  <!-- Title with the <title> beacon and <h1> beacon -->
+  <h1>John Doe</h1>
+
+  <!-- Section for Personal Information -->
+  <section>
+    <h2>Personal Information</h2>
+    <ul>
+      <li><strong>First Name:</strong> John</li>
+      <li><strong>Last Name:</strong> Doe</li>
+      <li><strong>Email:</strong> john.doe@example.com</li>
+      <li><strong>Phone:</strong> +123 456 7890</li>
+    </ul>
+  </section>
+
+  <!-- Section for Skills -->
+  <section>
+    <h2>Skills</h2>
+    <ol>
+      <li>Web Development (HTML, CSS, JavaScript)</li>
+      <li>Database Management (SQL, MongoDB)</li>
+      <li>Version Control (Git)</li>
+      <li>Project Management</li>
+    </ol>
+  </section>
+
+  <!-- Section for Experience -->
+  <section>
+    <h2>Experience</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Company</th>
+          <th>Position</th>
+          <th>Duration</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tech Corp</td>
+          <td>Software Engineer</td>
+          <td>2020 - Present</td>
+        </tr>
+        <tr>
+          <td>Web Solutions</td>
+          <td>Frontend Developer</td>
+          <td>2018 - 2020</td>
+        </tr>
+        <tr>
+          <td>Data Systems</td>
+          <td>Database Administrator</td>
+          <td>2016 - 2018</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- External CSS for the second requirement -->
+  <link rel="stylesheet" href="styles.css">
+</body>
+</html>
