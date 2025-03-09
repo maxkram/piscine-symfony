@@ -1,0 +1,6 @@
+run install.sh in the project's root directory
+sudo update-alternatives --set php /usr/bin/php7.4
+sudo update-alternatives --display php
+sudo update-alternatives --set php /usr/bin/php8.3.1
+php -v
+composer show monolog/monolog

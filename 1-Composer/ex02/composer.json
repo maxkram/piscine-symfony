@@ -1,0 +1,17 @@
+{
+    "name": "maxkram/ex02",
+    "autoload": {
+        "psr-4": {
+            "Maxkram\\Ex02\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "maxkram",
+            "email": "max.kramer@live.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
